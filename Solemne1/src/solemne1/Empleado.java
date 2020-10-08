@@ -10,5 +10,23 @@ package solemne1;
  * @author Emilio
  */
 public class Empleado {
+    public String rut;
+    public String nombre;
+    public String apellido;
+    public int diaFdN; //fecha de nacimiento
+    public int mesFdN;
+    public int anoFdN;
+    public String nivelEducativo;
     
+    public Empleado(){}
+    
+    public Empleado(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
+        this.rut = rut;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.diaFdN = diaFdN;
+        this.mesFdN = mesFdN;
+        this.anoFdN = anoFdN;
+        this.nivelEducativo = nivelEducativo;
+    }
 }
