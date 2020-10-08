@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package solemne1;
-
+import java.util.Random;
 /**
  *
  * @author Emilio
@@ -13,10 +13,11 @@ public class Vendedor extends Empleado{
     public String region;
     private int ventasmes;
     
-    public Vendedor(String Region , int ventasMes, String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
-    super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo, esAdministrador); 
+    public Vendedor(String Region , String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
+    super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo); 
     this.region = Region;
-    this.ventasmes = ventasMes;
-    this.esAdministrador = false;
+    Random rand = new Random();
+    this.ventasmes = rand.nextInt(20);
+    //this.esAdministrador = false;
     }
 }

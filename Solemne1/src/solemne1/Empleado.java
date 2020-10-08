@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package solemne1;
-
+import java.util.Random;
 /**
  *
  * @author Emilio
@@ -21,7 +21,7 @@ public class Empleado {
     
     public Empleado(){}
     
-    public Empleado(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
+    public Empleado(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo ){
         this.rut = rut;
         this.nombre = nombre;
         this.apellido = apellido;

@@ -11,8 +11,7 @@ package solemne1;
  */
 public class Contador extends Empleado {
    
-    public Contador(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
-            super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo, esAdministrador);
-            this.esAdministrador = true;
+    public Contador(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
+            super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo);
     }
 }

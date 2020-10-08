@@ -11,8 +11,8 @@ package solemne1;
  */
 public class Asistente extends Empleado {
    
-    public Asistente(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
-            super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo, esAdministrador);
+    public Asistente(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
+            super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo);
             this.esAdministrador = true;
     }
 }
