@@ -9,16 +9,16 @@ package solemne1;
  *
  * @author arluna
  */
-public class obreroProduccion extends Empleado{
+public class ObreroProduccion extends Empleado{
     public Boolean turnoDia;
     public Boolean turnoTarde;
     public Boolean turnoNoche;
     
-    public obreroProduccion(Boolean turnoDia, Boolean turnoTarde, Boolean turnoNoche, String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
+    public ObreroProduccion(Boolean turnoDia, Boolean turnoTarde, Boolean turnoNoche, String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
     super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo, esAdministrador); 
     this.turnoDia = turnoDia;
     this.turnoNoche = turnoNoche;
     this.turnoNoche = turnoNoche;
-    esAdministrador = false;
+    this.esAdministrador = false;
     }
 }

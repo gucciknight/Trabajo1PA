@@ -17,6 +17,6 @@ public class Vendedor extends Empleado{
     super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo, esAdministrador); 
     this.region = Region;
     this.ventasmes = ventasMes;
-    esAdministrador = false;
+    this.esAdministrador = false;
     }
 }
