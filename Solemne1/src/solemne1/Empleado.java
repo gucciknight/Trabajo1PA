@@ -17,10 +17,11 @@ public class Empleado {
     public int mesFdN;
     public int anoFdN;
     public String nivelEducativo;
+    public Boolean esAdministrador;
     
     public Empleado(){}
     
-    public Empleado(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
+    public Empleado(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo, Boolean esAdministrador){
         this.rut = rut;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -28,5 +29,6 @@ public class Empleado {
         this.mesFdN = mesFdN;
         this.anoFdN = anoFdN;
         this.nivelEducativo = nivelEducativo;
+        this.esAdministrador = esAdministrador;
     }
 }
