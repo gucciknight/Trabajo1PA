@@ -20,4 +20,17 @@ public class Vendedor extends Empleado{
     this.ventasmes = rand.nextInt(20);
     this.esAdministrador = false;
     }
+     public double getSueldo(){
+        double sueldo = 0;
+        if(region == "Zona Norte"){
+            sueldo = 450000;
+        }
+        if(region == "RM"){
+            sueldo = 350000;
+        }
+        if(region ==  "Zona Sur"){
+            sueldo = 500000;
+        }
+        return sueldo;
+    }
 }
