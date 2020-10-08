@@ -33,7 +33,7 @@ public class Solemne1 {
         Empleados[13] = new ObreroProduccion(false, false, true,"124562346", "Obrero", "Primero", 25, 05,04, "Educacion Media Completa" );
   
         
-        System.out.println(Empleados[13].nombre);
+        //System.out.println(Empleados[13].nombre);
     }
     
 }
