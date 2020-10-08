@@ -15,4 +15,11 @@ public class ResponsableNomina extends Empleado {
             super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo);
                 this.esAdministrador = false;
     }
+    
+    public static void crearNomina(int mes) {
+        
+        Nomina nuevaNomina = new Nomina(mes, false);
+        System.out.println("la nomina ha sido creada");
+} 
+    
 }
