@@ -1,3 +1,2 @@
 # Trabajo1PA
-Primer trabajo creado en la plataforma git de la asignatura Programación avanzada
-test
+Codigo de la primera solemne de Programacíon avanzada
