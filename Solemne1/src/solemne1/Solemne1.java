@@ -39,7 +39,7 @@ public class Solemne1 {
         obrerosProduccion[4] = new ObreroProduccion(false, false, true,"124562346", "Obrero", "Quinto", 25, 05,04, "Educacion Media Completa" );
         obrerosProduccion[5] = new ObreroProduccion(false, false, true,"124562346", "Obrero", "Primero", 25, 05,04, "Educacion Media Completa" );
         
-        System.out.println(Vendedores[3].getSueldo());
+        System.out.println(obrerosProduccion[4].getSueldo());
         //responsable de nomina, crea nomina
         
         elResponsabledeNomina.crearNomina(1);

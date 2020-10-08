@@ -24,13 +24,13 @@ public class ObreroProduccion extends Empleado{
     
     public double getSueldo(){
         double sueldo = 0;
-        if(turnoDia = true){
+        if(turnoDia == true){
             sueldo = 250000;
         }
-        if(turnoTarde = true){
+        if(turnoTarde == true){
             sueldo = 350000;
         }
-        if(turnoNoche =  true){
+        if(turnoNoche == true){
             sueldo = 450000;
         }
         return sueldo;
