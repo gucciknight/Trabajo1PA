@@ -30,4 +30,11 @@ public class Empleado {
         this.nivelEducativo = nivelEducativo;
         this.esAdministrador = esAdministrador;
     }
-}
+     public double getSueldo(){
+        double sueldo = 0;
+        if(esAdministrador == true){
+            sueldo = 700000;
+            }
+        return sueldo;
+     }
+}   
