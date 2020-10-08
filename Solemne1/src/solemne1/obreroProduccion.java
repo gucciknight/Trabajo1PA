@@ -19,5 +19,6 @@ public class obreroProduccion extends Empleado{
     this.turnoDia = turnoDia;
     this.turnoNoche = turnoNoche;
     this.turnoNoche = turnoNoche;
+    esAdministrador = false;
     }
 }
