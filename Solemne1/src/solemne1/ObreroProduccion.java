@@ -18,5 +18,7 @@ public class ObreroProduccion extends Empleado{
     super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo); 
     this.turnoDia = turnoDia;
     this.turnoNoche = turnoNoche;
-    this.turnoNoche = turnoNoche;    }
+    this.turnoNoche = turnoNoche;   
+    this.esAdministrador = false;
+    }
 }

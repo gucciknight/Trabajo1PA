@@ -18,6 +18,6 @@ public class Vendedor extends Empleado{
     this.region = Region;
     Random rand = new Random();
     this.ventasmes = rand.nextInt(20);
-    //this.esAdministrador = false;
+    this.esAdministrador = false;
     }
 }

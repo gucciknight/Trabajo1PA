@@ -13,5 +13,7 @@ public class Contador extends Empleado {
    
     public Contador(String rut, String nombre, String apellido, int diaFdN, int mesFdN, int anoFdN, String nivelEducativo){
             super(rut, nombre, apellido, diaFdN, mesFdN, anoFdN, nivelEducativo);
+                this.esAdministrador = true;
+
     }
 }
