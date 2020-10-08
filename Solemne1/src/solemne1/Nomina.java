@@ -10,5 +10,10 @@ package solemne1;
  * @author arluna
  */
 public class Nomina {
-    
+    public int mes;
+    public Boolean aprobada;
+    public Nomina(int mes, Boolean aprobada) {
+    this.mes = mes;
+    this.aprobada = aprobada;
+    }
 }
